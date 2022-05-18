@@ -1,0 +1,28 @@
+.card-style{
+  /* width: 350px; */
+  /* align-items: center;
+  justify-content: center;
+  display: flex; */
+  border-radius: 10px;
+  /* margin: auto; */
+}
+.bg-color{
+  background-image: url('../../../image/bg-img/bg-img.jpg');
+}
+.card-style img{
+  padding: 10px 4px;
+  width: 330px;
+  height: 250px;
+  border-radius: 15px;
+}
+.btn-style{
+  background-color: #414141;
+  border: none;
+  color: white;
+  padding: 11px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.btn-style:hover{
+  background-color: #414141b6;
+}

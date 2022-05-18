@@ -1,0 +1,11 @@
+.nav-center{
+   margin: 0 auto;
+   font-weight: 700;
+   font-size: 20px;
+}
+.bg-header-color{
+  background-image: url('../../../image/bg-img/bg-img.png');
+}
+.login-signup-btn button {
+  background-color: #1a21aad5;
+}

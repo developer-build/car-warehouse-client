@@ -1,0 +1,19 @@
+.add-form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.add-form-container input , textarea{
+  background-image: url('../../image/bg-img/bg-img.jpg');
+  border: 2px solid gray;
+}
+.add-form-container textarea{
+  border: 2px solid gray;
+}
+
+.add-form-container form{
+  padding:50px;
+  width: 750px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+}
