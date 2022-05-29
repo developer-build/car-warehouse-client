@@ -62,7 +62,6 @@ const MyItems = () => {
             <th>Name</th>
             <th>Email</th>
             <th>Quantity</th>
-            {/* <th>Supplier Name</th> */}
             <th>Update Quantity</th>
             <th>Delete</th>
           </tr>
@@ -74,7 +73,6 @@ const MyItems = () => {
               <td>{item?.name}</td>
               <td> {item?.email}</td>
               <td>{item?.quantity}</td>
-              {/* <td>{item?.supplier}</td> */}
               <td>
                 <button
                   onClick={() => handleUpdate(item._id)}
