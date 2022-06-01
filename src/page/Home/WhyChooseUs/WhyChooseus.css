@@ -1,0 +1,27 @@
+.container_style{
+  padding-right: 100px;
+  padding-left:  100px;
+  }
+.h1-size{
+  font-size: 60px;
+}
+.medal-icon{
+  font-size: 50px;  
+  color: rgba(255, 0, 0, 0.589);
+}
+
+.users-icon{
+  font-size: 50px;
+  color: rgba(0, 128, 0, 0.678)
+}
+.doller-icon{
+  font-size: 50px;
+  color: rgba(18, 18, 236, 0.541);
+ 
+}
+
+@media (max-width: 400px) { 
+  .h1-size{
+    font-size: 30px;
+  }
+}
