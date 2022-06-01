@@ -1,0 +1,12 @@
+.service-card-style {
+  border-radius: 12px;
+}
+
+.service-card-style:hover {
+  box-shadow: 2px 2px 10px gray;
+}
+
+.service-card-style img {
+  margin-top: 10px;
+  width: 80px;
+}

@@ -1,0 +1,24 @@
+.quality-style {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.quality-style img {
+  border-radius: 10px;
+  width: 100%;
+}
+.quality-style h1 {
+  font-size: 50px;
+}
+.guaranteed {
+  color: coral;
+}
+@media (max-width: 400px) { 
+  .quality-style h1{
+    font-size: 30px;
+  }
+  .quality-style img{
+    margin-top: 30px;
+  }
+}

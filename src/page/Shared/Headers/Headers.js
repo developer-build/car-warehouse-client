@@ -48,18 +48,18 @@ const Headers = () => {
                 Blog
               </Nav.Link>
             </Nav>
-          <div className="login-signup-btn">
-            {user ? (
-              <button onClick={() => signOut(auth)} className="btn-style">
-                Sign Out
-                <FontAwesomeIcon className="ms-2" icon={faRightFromBracket} />
-              </button>
-            ) : (
-              <Link to="/login">
-                <button className="btn-style">Login</button>
-              </Link>
-            )}
-          </div>
+            <div className="login-signup-btn">
+              {user ? (
+                <button onClick={() => signOut(auth)} className="btn-style">
+                  Sign Out
+                  <FontAwesomeIcon className="ms-2" icon={faRightFromBracket} />
+                </button>
+              ) : (
+                <Link to="/login">
+                  <button className="btn-style">Login</button>
+                </Link>
+              )}
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

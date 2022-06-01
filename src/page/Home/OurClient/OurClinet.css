@@ -1,0 +1,18 @@
+.client-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.swiper-style{
+  
+  width: 300px;
+  height: 300px;
+}
+.swiper-style img{
+  width: 100px;
+  height: 100px;
+}
+.swiper-img{
+  margin-top: -0px;
+}

@@ -15,7 +15,7 @@ const Inventory = () => {
   }, [id]);
 
   const delivered = () => {
-    let remaining = parseInt(+ inventory.quantity) - 1;
+    let remaining = parseInt(+inventory.quantity) - 1;
     console.log(remaining);
     let newInventory = {
       img,

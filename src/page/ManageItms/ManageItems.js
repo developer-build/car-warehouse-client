@@ -28,7 +28,7 @@ const ManageItems = () => {
           const remaining = items.filter((item) => item._id !== id);
           setItems(remaining);
         });
-      toast("Delete Successfully");
+      toast.success("Delete Successfully");
     }
   };
   return (

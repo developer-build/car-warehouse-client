@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Car washing",
+    "img": "https://vosha.b-cdn.net/wp-content/uploads/2022/03/car-washerf.png",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora perferendis aut tempore quibusdam"
+  },
+  {
+    "name": "Battery changing",
+    "img": "https://vosha.b-cdn.net/wp-content/uploads/2022/03/car-battery.png",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora perferendis aut tempore quibusdam"
+  },
+  {
+    "name": "Brake fixing",
+    "img": "https://vosha.b-cdn.net/wp-content/uploads/2022/03/tire23f3.png",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora perferendis aut tempore quibusdam"
+  },
+  {
+    "name": "Oil Changing",
+    "img": "https://vosha.b-cdn.net/wp-content/uploads/2022/03/fuel3f.png",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora perferendis aut tempore quibusdam"
+  },
+  {
+    "name": "Light replacement",
+    "img": "https://vosha.b-cdn.net/wp-content/uploads/2022/03/car-lights.png",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora perferendis aut tempore quibusdam"
+  },
+  {
+    "name": "Car diagnostic",
+    "img": "https://vosha.b-cdn.net/wp-content/uploads/2022/03/car-repai32f.png",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora perferendis aut tempore quibusdam"
+  }
+]

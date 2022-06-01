@@ -34,7 +34,7 @@ const AddItem = () => {
         console.log(result);
       });
 
-    toast("Thanks for your Add Item");
+    toast.success("Thanks for your Add Item");
     event.target.reset();
   };
 
