@@ -1,0 +1,27 @@
+.aboutUs-style{
+   padding: 80px;
+}
+.aboutUs-style h1{
+  font-size: 80px;
+  color: darkslategrey;
+}
+
+.aboutUs-style img{
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 400px) { 
+  .aboutUs-style{
+    padding: 40px;
+ }
+  .aboutUs-style img{
+    height: auto;
+  }
+  .aboutUs-style h1{
+    font-size: 40px;
+  }
+  .aboutUs-style h5{
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+
+.form_container{
+  background-color: aliceblue;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+}
+.form_container input{
+ border-radius: 10px;
+ /* width: 400px; */
+}
+
+.contact-img img{
+  width: 100%;
+}
+.message{
+  height: 100px;
+}
+
+@media (max-width: 400px) { 
+  .contact-container{
+    padding: auto;
+  }
+  .form_container{
+    margin: auto;
+  }
+}

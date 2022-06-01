@@ -47,6 +47,12 @@ const Headers = () => {
               <Nav.Link as={CustomLink} to="/blog">
                 Blog
               </Nav.Link>
+              <Nav.Link as={CustomLink} to="/aboutUs">
+                 About Us
+              </Nav.Link>
+              <Nav.Link as={CustomLink} to="/contact">
+                Contact
+              </Nav.Link>
             </Nav>
             <div className="login-signup-btn">
               {user ? (

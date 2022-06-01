@@ -14,6 +14,8 @@ import ManageItems from "./page/ManageItms/ManageItems";
 import AddItem from "./page/AddItem/AddItem";
 import MyItems from "./page/MyItems/MyItems";
 import RequireAuth from "./RequireAuth/RequireAuth";
+import AboutUs from "./page/AboutUs/AboutUs";
+import Contact from "./page/Contact/Contact";
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
         <Route
           path="/manageItems"
           element={
