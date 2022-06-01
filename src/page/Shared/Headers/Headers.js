@@ -50,13 +50,13 @@ const Headers = () => {
             </Nav>
             <div className="login-signup-btn">
               {user ? (
-                <button onClick={() => signOut(auth)} className="btn-style">
+                <button onClick={() => signOut(auth)} className="btn_style">
                   Sign Out
                   <FontAwesomeIcon className="ms-2" icon={faRightFromBracket} />
                 </button>
               ) : (
                 <Link to="/login">
-                  <button className="btn-style">Login</button>
+                  <button className="btn_style">Login</button>
                 </Link>
               )}
             </div>

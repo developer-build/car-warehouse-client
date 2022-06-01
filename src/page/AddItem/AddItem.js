@@ -50,7 +50,7 @@ const AddItem = () => {
 
   return (
     <Fragment>
-      <section className="add-form-container container-style">
+      <section className="add-form-container bg-color container-style">
         <Form
           className="bg-color"
           noValidate
@@ -131,7 +131,7 @@ const AddItem = () => {
             </Form.Group>
           </Row>
 
-          <Button className="btn-style" type="submit">
+          <Button className="btn_style" type="submit">
             Add Item
           </Button>
           <ToastContainer />

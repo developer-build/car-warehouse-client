@@ -15,7 +15,7 @@ const NotFound = () => {
           direction
         </p>
         <Link to="/">
-          <button className="btn-style">Go Back Home</button>
+          <button className="btn_style">Go Back Home</button>
         </Link>
       </div>
     </Fragment>

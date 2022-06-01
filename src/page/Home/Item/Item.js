@@ -39,7 +39,7 @@ const Item = ({ item }) => {
                 </h4>
                 <button
                   onClick={() => handleNavigate(_id)}
-                  className="btn-style"
+                  className="btn_style"
                 >
                   Update Item
                 </button>

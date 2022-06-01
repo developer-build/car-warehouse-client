@@ -27,7 +27,7 @@ const Items = () => {
 
         <div className="b-5 pt-5  justify-content-center align-self-center d-flex">
           <Link to="manageItems">
-            <button className="btn-style  mb-5">Manage All Inventory</button>
+            <button className="btn_style  mb-5">Manage All Inventory</button>
           </Link>
         </div>
       </section>

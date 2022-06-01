@@ -71,8 +71,8 @@ const Inventory = () => {
 
   return (
     <Fragment>
-      <section className="container-style justify-content-center  align-items-center d-flex">
-        <Card className="pb-5 single-card-style mx-0  bg-color  pt-5 ">
+      <section className="container-style justify-content-center bg-color  align-items-center d-flex">
+        <Card className="pb-5 single-card-style mx-0 bg-color  pt-5 ">
           <div className="row container details-style ">
             <div className="col-md-6">
               <Card.Img variant="top" src={img} />
@@ -92,7 +92,7 @@ const Inventory = () => {
                 <h6>
                   <strong>Supplier:</strong> {supplier}
                 </h6>
-                <button className="btn-style mt-2" onClick={delivered}>
+                <button className="btn_style mt-2" onClick={delivered}>
                   Delivered
                 </button>{" "}
                 <br />
@@ -105,7 +105,7 @@ const Inventory = () => {
                     required
                   />{" "}
                   <br />
-                  <button type="submit" className="btn-style mt-3">
+                  <button type="submit" className="btn_style mt-3">
                     Re Stock
                   </button>
                 </form>

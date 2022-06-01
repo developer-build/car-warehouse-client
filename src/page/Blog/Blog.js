@@ -8,7 +8,8 @@ import img4 from "../../image/four question img/JWT_tokens_EN.png";
 const Blog = () => {
   return (
     <Fragment>
-      <section className="container-style justify-content-center align-items-center d-flex">
+  <section  className="bg-color">
+  <section className="container-style justify-content-center align-items-center d-flex ">
         <Card className="pb-5 single-card-style bg-color mx-0  pt-5 ">
           <div className="row container details-style ">
             <div className="col-md-6">
@@ -153,6 +154,7 @@ const Blog = () => {
           </div>
         </Card>
       </section>
+  </section>
     </Fragment>
   );
 };
