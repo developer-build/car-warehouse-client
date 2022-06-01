@@ -1,0 +1,8 @@
+.apple{
+  height: 100px;
+}
+@media (max-width: 400px) { 
+  .apple {
+    height: 55px;
+  }
+}

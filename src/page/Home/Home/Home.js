@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Dealership from "../Dealership/Dealership";
 import HoodSales from "../HoodSales/HoodSales";
 import Items from "../Items/Items";
+import MobileApp from "../MobileApp/MobileApp";
 import OurClient from "../OurClient/OurClient";
 import OurService from "../OurService/OurService";
 import OurTeam from "../OurTeam/OurTeam";
@@ -24,6 +25,7 @@ const Home = () => {
         <OurService />
         <Dealership />
         <OurTeam />
+        <MobileApp/>
         <WhyChooseUs/>
       </section>
     </Fragment>
