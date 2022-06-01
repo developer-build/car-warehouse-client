@@ -6,7 +6,7 @@ import './WhyChooseus.css'
 const WhyChooseUs = () => {
   return (
     <Fragment>
-      <section className="text-center py-5">
+      <section className="text-center pb-5">
       <h1 className="py-5 h1-size fw-bold" >Why choose us?</h1>
 
         <div className="row container_style mx-auto">

@@ -1,13 +1,5 @@
 .card-style{
-  /* width: 350px; */
-  /* align-items: center;
-  justify-content: center;
-  display: flex; */
   border-radius: 10px;
-  /* margin: auto; */
-}
-.bg-color{
-  /* background-image: url('../../../image/bg-img/bg-img.jpg'); */
 }
 .card-style img{
   padding: 10px 4px;

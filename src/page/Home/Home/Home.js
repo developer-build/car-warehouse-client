@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Banner from "../Banner/Banner";
 import Dealership from "../Dealership/Dealership";
 import HoodSales from "../HoodSales/HoodSales";
+import HoodSales1 from "../HoodSales1/HoodSales1";
 import Items from "../Items/Items";
 import MobileApp from "../MobileApp/MobileApp";
 import OurClient from "../OurClient/OurClient";
@@ -19,6 +20,7 @@ const Home = () => {
         <Banner />
         <Quality />
         <WatchOurWarehouse/>
+        <HoodSales1/>
         <Items />
         <HoodSales/>
         {/* <OurClient/> */}

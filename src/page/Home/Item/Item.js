@@ -16,7 +16,7 @@ const Item = ({ item }) => {
     <Fragment>
       {Array.from({ length: 1 }).map((_, idx) => (
         <Col>
-          <Card key={item?._id} className="card-style shadow-sm">
+          <Card key={item?._id} className="card-style card-style-hover shadow-sm">
             <Card.Img className="w-full mx-auto" variant="top" src={img} />
             <Card.Body>
               <Card.Title>

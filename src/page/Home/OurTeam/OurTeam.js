@@ -41,10 +41,6 @@ const OurTeam = () => {
         ))}
       </div>
 
-
-
-   
-
     </Fragment>
   );
 };
